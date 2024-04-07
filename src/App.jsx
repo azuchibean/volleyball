@@ -8,11 +8,11 @@ function App() {
   const [count, setCount] = useState(4)
 
   function reduceSize() {
-    if (count > 2) setCount(prevCount => prevCount - 2)
+    if (count > 2) setCount(prevCount => prevCount - 1)
   }
 
   function increaseSize() {
-    if (count < 8) setCount(prevCount => prevCount + 2)
+    if (count < 8) setCount(prevCount => prevCount + 1)
   }
 
   const [isDropped, setIsDropped] = useState(false);
