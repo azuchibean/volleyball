@@ -1,0 +1,14 @@
+.playercard {
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.playercard:hover{
+    background-color: gray;
+}
+
+th {
+    padding-right: 3%;
+}
