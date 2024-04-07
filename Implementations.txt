@@ -1,0 +1,19 @@
+IDEAS that should be implemented
+
+- Allow user to add a name associated with an email
+- host a website that allows user to create 4 teams 
+- Allows user to drag names into teams
+- Create a confirm button that finalizes the players and add cost to players
+- Create a discord bot, that would at the end of the month, display cost to each player
+
+
+-Image quality
+-Regulars vs subs 
+	- Regulars
+
+
+-Names over people
+-Better images
+
+Improvements
+-separate components more effectively
