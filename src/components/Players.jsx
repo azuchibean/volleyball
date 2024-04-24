@@ -23,17 +23,15 @@ function Players() {
   }, []);
 
   return (
-    <div>
-      {imageSrcs.map((src, index) => (
+      imageSrcs.map((src, index) => (
         <DraggableImage key={index} src={src} index={index} />
-      ))}
-    </div>
+      ))
   );
 }
 
 function DraggableImage({ src, index }) {
   const { attributes, listeners, setNodeRef, transform } = useDraggable({
-    id: `draggable-${index}`, // Ensure unique ID for each draggable
+    id: `draggable-${index}`,
   });
 
   const style = transform ? {
